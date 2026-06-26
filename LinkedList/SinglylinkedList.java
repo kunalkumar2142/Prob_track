@@ -114,6 +114,11 @@ public class SinglylinkedList {
         return val;
     }
 
+    public void deleteNode(Node node) {
+        node.value = node.next.value;
+        node.next = node.next.next;
+    }
+
     public void display(){
         Node curr = head;
         while(curr != null){
