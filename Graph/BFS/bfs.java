@@ -21,12 +21,12 @@ class bfs{
 
         Queue<Integer> que = new LinkedList<>();
         boolean[] visited = new boolean[n];
-        int[] ans = new ans[n];
+        int[] ans = new int[n];
 
         que.add(src);
         visited[src] = true;
 
-        
+        return null;
     }
 
     public static void main(String[] args) {

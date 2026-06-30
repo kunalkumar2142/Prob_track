@@ -53,7 +53,7 @@ class tree {
     }
 
     public static void main(String[] args) {
-        Solution obj = new Solution();
+        tree obj = new tree();
 
         // Perfect Binary Tree
         //        1

@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class subsets {
-    static void solve(int[] arr, int n){
+    static void solve(int[] arr, int n, ArrayList<Integer> ds){
 
     }
     public static void main(String[] args) {
